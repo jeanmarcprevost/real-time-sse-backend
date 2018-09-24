@@ -8,7 +8,7 @@ http.createServer((request, response) => {
       'Connection': 'keep-alive',
       'Content-Type': 'text/event-stream',
       'Cache-Control': 'no-cache',
-      'Access-Control-Allow-Origin': '*'
+      'Access-Control-Allow-Origin': 'http://localhost:3001'
     });
 
     setTimeout(() => {
